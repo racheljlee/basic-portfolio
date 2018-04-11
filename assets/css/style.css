@@ -1,0 +1,23 @@
+body {
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+}
+
+/*NAVIGATION*/
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
