@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rachel J. Lee</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 </head>
@@ -16,26 +16,30 @@
 <body>
 <!--*************** HEADER ***************-->
     <header>
-        <div class="your-name">
-            <h1>Rachel J. Lee</h1>
+    <!--*************** NAVIGATION LINKS ***************-->
+        <div class="header-nav">
+            <nav class="menu">
+                <a href="index.html">about</a><span> | </span>
+                <a href="portfolio.html">portfolio</a><span> | </span>
+                <a href="contact.html">contact</a>
+            </nav>
+            <div class="name">
+                <h1 class="rachel">Rachel J. Lee</h1>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="clearfix"></div>
     </header>
 
-    <section id="about-me">
-       <div class="about">
-            <h2>About Me</h2>
-            <hr>
-            <!-- <img src="assets/images/me.jpg"> -->
-            <p>Ecstatic about making bomb-ass websites with various coding tools such as HTML/CSS and Javascript! I'm a foodie who loves exploring new places by getting a taste of the food. I also love immersing myself in stories and enjoy watching all kinds of films &amp; tv shows, reading books &amp; graphic novels, and playing video games. I also greatly enjoy writing stories in my free time and hope to implement my passion for stories into how I make websites.</p>
-       </div>
-    </section>
+    <section class="about">
+        <div class="container">
+            <div class="content">
+                <h2>About Me</h2>
+                <hr>
+                <p>Ecstatic about making bomb-ass websites with various coding tools such as HTML/CSS and Javascript! I'm a foodie who loves exploring new places by getting a taste of the food. I also love immersing myself in stories and enjoy watching all kinds of films &amp; tv shows, reading books &amp; graphic novels, and playing video games. I also greatly enjoy writing stories in my free time and hope to implement my passion for stories into how I make websites.</p>
+                <div class="picture"><img src="assets/images/me.jpg"></div>
+            </div>
+        </div>
+</section>
 
     <footer id="footer">
        <div class="copyright">

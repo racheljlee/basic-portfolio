@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background-image: url('../images/seigaiha.png');
     font-family: 'Raleway', sans-serif;
 }
 
@@ -7,17 +7,113 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-size: 36px;
+    padding: 22px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.clearfix {
+    clear: both;
+}
+
 /* HEADER */
 header {
+    background-color: #fff;
     height: 80px;
+    margin: 0 auto;
+    border-bottom: 2px solid #ddd;
+}
+.header-nav {
+    width: 960px;
+    margin: 0 auto;
 }
 
 /*NAVIGATION*/
-
 nav {
     float: right;
+    text-align: right;
+    padding-right: 100px;
+}
+nav a {
+    color: #999;
+    text-decoration: none;
+    padding-right: 10px;
+}
+nav a:last-child {
+    padding-right: 0px;
+}
+nav span {
+    padding-right: 10px;
+    color: #ccc;
+}
+.menu {
+    display: inline-block;
+    padding: 32px;
 }
 
-nav ul li {
+/*NAME*/
+.name {
+    float: left;
+}
+
+.rachel {
+    background: #c3f2e5;
     display: inline-block;
+}
+
+/*ABOUT ME*/
+.about {
+    position: relative;
+    padding: 30px;
+    overflow: overlay;
+}
+.container {
+    background: #fff;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.content {
+    padding: 30px;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+hr {
+    border: 2px dotted #ddd;
+    margin: 20px 0px 20px 0px;
+}
+p {
+    float: right;
+    width: 650px;
+    line-height: 24px;
+    position: relative;
+}
+.about .content .picture {
+    float: left;
+    padding-right: 30px;
+}
+.about .content img {
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/*FOOTER*/
+footer {
+    background: #c3f2e5;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 5px solid #bbb;
+}
+
+footer span {
+    position: relative;
+    top: 40px;
 }
