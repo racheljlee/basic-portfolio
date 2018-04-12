@@ -65,8 +65,8 @@ nav span {
     display: inline-block;
 }
 
-/*ABOUT ME*/
-.about {
+/*SECTION*/
+section {
     position: relative;
     padding: 30px;
     overflow: overlay;
@@ -120,3 +120,47 @@ footer span {
 }
 
 /*****PORTFOLIO PAGE*****/
+.box-set {
+    margin-bottom: 40px;
+}
+.box-set:last-child {
+    margin-bottom: 0px;
+}
+.box {
+    background: #eee;
+    width: 280px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 24px;
+}
+.box:last-child {
+    margin-right: 0px;
+}
+.project-title {
+    background: #c3f2e5;
+    padding: 20px;
+    display: block;
+    width: 240px;
+}
+
+/*****CONTACT PAGE*****/
+form {
+    color: #888;
+}
+.form-label {
+    margin-bottom: 5px;
+}
+input {
+    color: #888;
+    width: 885px;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+textarea {
+    width: 885px;
+    height: 300px;
+    padding: 5px;
+    border-color: #ddd;
+}
